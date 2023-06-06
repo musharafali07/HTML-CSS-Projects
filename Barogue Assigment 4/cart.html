@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    body{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .container {
+        display: flex;
+    }
+
+    .left-container {
+        width: 55%;
+        margin: 80px;
+
+    }
+
+    .container .left-container .login {
+        display: flex;
+    }
+
+    .container .left-container h3 {
+        font-size: 24px;
+
+    }
+
+    .container .left-container .login p {
+        margin-left: 200px;
+    }
+
+
+    .container .left-container .type1 {
+        padding: 10px;
+        width: 96%;
+        margin-top: 15px;
+        border: 1px solid rgb(207, 207, 205);
+    }
+
+    .container .left-container .type2 {
+        padding: 10px;
+        width: 278px;
+        margin-top: 20px;
+        border: 1px solid rgb(207, 207, 205);
+
+    }
+
+    .container .left-container .type0 {
+        padding: 10px;
+        width: 100%;
+        border: none;
+    }
+
+    .container .left-container .ship {
+        margin-top: 60px;
+    }
+
+    .container .left-container .ship .btn {
+        padding: 16px;
+        background-color: blue;
+        border: none;
+        color: aliceblue;
+        border-radius: 8px;
+        margin-left: 374px;
+    }
+
+    .container .left-container .p1 {
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
+    .right-container {
+        width: 45%;
+        background-color: aliceblue;
+        padding: 70px;
+        height: 800px;
+    }
+
+    .right-container .type1{
+        padding: 15px;
+        width: 50%;
+        border: none;
+        margin: 20px;
+    }
+
+    .right-container .btn{
+        padding: 15px;
+        background-color: rgb(180, 186, 190);
+        border: none;
+    }
+
+    .right-container .subtotal{
+        display: flex;
+        justify-content: space-between;
+        margin: 20px;
+    }
+
+    .right-container .shipping{
+        display: flex;
+        justify-content: space-between;
+        margin: 20px;
+    }
+    .right-container .total{
+        display: flex;
+        justify-content: space-between;
+        margin: 20px;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="left-container">
+            <div class="login">
+                <h3>Contact information</h3>
+                <p>Already Create Acount? <a href="#">Login</a></p>
+            </div>
+            <input type="email" class="email type1" placeholder="Email">
+            <p class="p1">Email me with news and offers</p>
+            <br>
+            <h3>Shipping Address</h3>
+            <fieldset class="type1">
+                <legend>Country/region</legend>
+                <select class="type0">
+                    <option value="pakistan">Pakistan</option>
+                    <option value="pakistan">Pakistan</option>
+                    <option value="pakistan">Pakistan</option>
+                    <option value="pakistan">Pakistan</option>
+                </select>
+            </fieldset>
+            <input type="text" class="type2" placeholder="First Name">
+            <input type="text" class="type2" placeholder="Last Name">
+            <br>
+            <input type="text" class="type1" placeholder="Address">
+            <br>
+            <input type="text" class="type1" placeholder="appointment"> <br>
+            <input type="text" class="type2" placeholder="City">
+            <input type="number" class="type2" placeholder="Zip Code">
+            <br><input type="number" class="type1" placeholder="Phone">
+            <p class="p1">Save this information for next time</p>
+            <div class="ship">
+                <a href="#">Retrun to cart</a>
+                <button class="btn">Continue Shipping</button>
+            </div>
+            <br>
+        </div>
+
+        <!-- right -->
+        <div class="right-container">
+            <hr>
+            <input type="text" class="type1" placeholder="Gift card or discount code">
+            <button class="btn">Apply</button>
+            <br>
+            <hr>
+            <div class="subtotal">
+                <p>subtotal</p>
+                <p><b>Rs 0.00000</b></p>
+            </div>
+            <div class="shipping">
+                <p>Shipping</p>
+                <p><b>Calculated at next step</b></p>
+            </div>
+            <hr>
+            <div class="total">
+                <h4>Total</h4>
+                <h3><b>Rs 0,00000</b></h3>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,572 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.top-menu {
+    background-color: black;
+    width: 100%;
+    padding: 10px;
+    color: aliceblue;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* ------- header  -----------*/
+
+header {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.5;
+}
+
+
+
+.hero {
+    background: url('https://cdn.shopify.com/s/files/1/2277/5269/files/mobile_68909d3e-1335-4736-a6ba-963274e8bd50.jpg?v=1666852878');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 650px;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero #btn {
+    position: absolute;
+    top: 90%;
+    left: 43%;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 15px;
+    background-color: black;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.section-2 {
+    padding-left: 90px;
+    padding-right: 90px;
+    margin: 15px;
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+    row-gap: 5px;
+}
+
+
+.section-2 p {
+    padding: 8px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.section-2 .slide-1 {
+    padding: 8px;
+    margin: 5px;
+}
+
+.section-2 .slide-1 a{
+    color: black;
+font-size: 13px;
+}
+.subcribe{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    padding: 110px;
+}
+.subcribe .sub1{
+    width: 50%;
+}
+
+.subcribe .sub2{
+    width: 50%;
+    height: 300px;
+    background-color: #FCDCC6;
+    text-align: center;
+    padding-top: 100px;
+}
+.subcribe .sub2 h5 {
+    margin: 20px;
+}
+
+.subcribe .sub2 p {
+    margin: 20px;
+}
+
+
+.subcribe .sub2 .sign-me {
+    display: flex;
+    justify-content: center;
+}
+
+.subcribe .sub2 .sign-me input {
+    padding: 10px;
+    border: none;
+}
+
+.subcribe .sub2 .sign-me #btn {
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+}
+
+
+/* ------------ Second page  --------- */
+.products {
+    display: flex;
+    margin: 50px;
+}
+
+.left-side {
+    width: 20%;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+.left-side p {
+    padding: 13px;
+    margin-left: 20px;
+    font-size: 15px;
+
+}
+
+.right-side {
+    width: 60%;
+    margin-left: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.right-side .detail {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.right-side .detail img {
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+
+.right-side .detail p {
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+
+
+/* ------------------ third Page ------------- */
+
+.product-detail {
+    width: 100%;
+    display: flex;
+}
+
+.left-container {
+    width: 50%;
+    height: 700px;
+    padding: 60px;
+    padding-left: 160px;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-container #main {
+    display: flex;
+    justify-content: center;
+}
+
+#items {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#items img {
+    padding: 10px;
+    width: 90px;
+    height: 120px;
+}
+
+/* --------- product information  -------- */
+.product-info {
+    width: 50%;
+    margin-top: 20px;
+    margin-right: 60px;
+    padding: 40px;
+}
+
+.product-info .top-heading h6 {
+    font-size: 17px;
+}
+
+.product-info .top-heading p {
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+
+.product-info .top-heading .btn1 {
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.product-info .top-heading .btn1 .btns {
+    margin-left: 20px;
+}
+
+.product-info .top-heading .btn1 .btns input {
+    width: 20%;
+}
+
+.product-info .top-heading .btn1 .btns .btn {
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.product-info .top-heading {
+    margin: 30px;
+    margin-left: 60px;
+}
+
+.product-info .pro-description {
+    margin: 30px;
+}
+
+.product-info .pro-description #DESC{
+    width: 90%;
+    border: none;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+
+.product-info .pro-description p {
+    margin: 10px;
+    margin-left: 30px;
+}
+
+.product-info .buttons {
+    margin: 20px;
+
+}
+
+
+.product-info .buttons #item1 {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 5px;
+    border: 1px solid black;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.product-info .buttons #item1 a {
+    color: black;
+    text-decoration: none;
+}
+
+.product-info .buttons #item2 {
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: 5px;
+    background-color: black;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.product-info .buttons #item2 a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.product-info .buttons #item3 {
+    padding: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin: 5px;
+    border: 1px solid black;
+    text-transform: uppercase;
+}
+
+.product-info .buttons #item3 a {
+    color: black;
+    text-decoration: none;
+}
+
+.product-info .INSTRUCTION {
+    margin: 30px;
+}
+
+.product-info .INSTRUCTION .ins{
+    width: 90%;
+    border: none;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.product-info .INSTRUCTION p {
+    margin: 10px;
+    margin-left: 30px;
+    font-size: 15px;
+}
+
+.product-info #reviews {
+    text-align: center;
+}
+
+.product-info .no {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    font-size: 12px;
+}
+
+
+.like {
+    width: 100%;
+    padding: 30px;
+    margin-top: 80px;
+}
+
+.like h6 {
+    margin-bottom: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.section2 {
+    display: flex;
+    justify-content: center;
+}
+
+.section2 p {
+    padding: 10px;
+    text-align: center;
+} 
+
+
+/* ------------ Footer --------------- */
+
+footer{
+    width: 100%;
+    height: 300px;
+    margin-top: 150px;
+    margin-bottom: 0px;
+}
+
+footer .links {
+    background-color: #F6F6F6;
+    padding: 40px;
+    text-align: center;
+}
+
+footer .links a {
+    text-decoration: none;
+    margin: 5px;
+    font-size: 14px;
+    color: black;
+}
+
+footer .links .icon {
+    margin-top: 30px;
+}
+
+footer .links .icon i {
+    padding: 6px;
+}
+
+footer .copy {
+    background-color: rgb(15, 15, 15);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+
+/* -------- Media Query  ------ */
+/* iphone 12 pro */
+
+@media screen and (max-width: 390px) {
+
+    .hero {
+        width: 100%;
+    }
+
+    .hero #btn {
+        margin: -30px;
+        margin-top: -200px;
+    }
+
+    .section-2 {
+        width: 100%;
+        margin: 0%;
+        padding: 20px;
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-2 .slide-1 {
+
+        margin: 0px;
+        padding: 0%;
+        width: 100%;
+    }
+
+    .section-2 .slide-1 img {
+        width: 100%;
+        margin: 0%;
+
+    }
+
+    .subcribe {
+        width: 100%;
+        margin: 0%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .subcribe .sub1 {
+        width: 100%;
+    }
+
+    .subcribe .sub2 {
+        width: 100%;
+    }
+
+    footer {
+        width: 100%;
+        margin-top: 320px;
+    }
+
+    footer a {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+
+/* iphone XR /SE*/
+
+/* @media screen and (max-width: 375px) {
+    .hero {
+        width: 100%;
+    }
+
+    .hero #btn {
+        margin: -30px;
+        margin-top: 200px;
+    }
+
+    .section-2 {
+        width: 100%;
+        margin: 23px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-2 .slide-1 {
+        margin-top: 10px;
+        width: 100%;
+    }
+    .subcribe{
+        display: flex;
+    }
+
+} */
+
+
+
+
+
+
+/* ipad Air mini */
+@media screen and (max-width: 768px) {
+    .hero {
+        width: 100%;
+    }
+
+    .hero #btn {
+        margin-top: 300px;
+    }
+
+    .section-2 {
+        width: 100%;
+        padding: 0%;
+        padding-right: 40px;
+        margin-top: 30px;
+
+    }
+
+    .section-2 .slide-1 {
+        width: 100%;
+
+    }
+
+    .section-2 .slide-1 img {
+        width: 100%;
+        margin: 0%;
+        padding: 0%;
+
+    }
+
+    .subcribe {
+        width: 100%;
+        margin: 0%;
+        padding: 20px;
+        display: flex;
+        flex-direction: row;
+        padding: 80px;
+    }
+
+    .subcribe .sub1 {
+        width: 100%;
+    }
+
+    .subcribe .sub2 {
+        width: 100%;
+        height: 300px;
+    }
+
+    footer {
+        width: 100%;
+        margin-top: 150px;
+    }
+
+}
+
+/* ipad Air mini */
+@media screen and (max-width: 912px) {
+    .hero {
+        width: 100%;
+    }
+
+    .hero #btn {
+        margin-top: -700px;
+    }
+
+}
